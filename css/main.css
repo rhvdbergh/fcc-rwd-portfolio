@@ -3,14 +3,32 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 #navbar {
   position: fixed;
+  background: whitesmoke;
+  width: 100%;
   top: 0;
+  height: 60px;
 }
 
 .nav-ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+}
+
+.nav-li {
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main {
+  margin-top: 60px;
 }
 
 #welcome-section {
