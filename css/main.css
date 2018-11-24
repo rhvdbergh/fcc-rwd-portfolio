@@ -1,6 +1,16 @@
-body {
+/* COLORS 
+#934874
+#C98686
+#DCA875
+#FFF4EC
+#E7CFBC
+*/
+
+* {
   padding: 0;
   margin: 0;
+}
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,7 +25,7 @@ li {
 
 #navbar {
   position: fixed;
-  background: whitesmoke;
+  background: #934874;
   width: 100%;
   top: 0;
   height: 60px;
@@ -30,6 +40,23 @@ li {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 1.3em;
+  transition: 0.4s;
+  padding-top: 18px;
+  padding-bottom: 17px;
+}
+
+.nav-li:hover {
+  background-color: #DCA875;
+
+}
+
+.nav-li a {
+  color: #FFF4EC;
+  transition: 0.3s;
+}
+
+.nav-li a:hover {
+  text-shadow: 2px 2px 2px #DCA875;
 }
 
 main {
@@ -38,6 +65,7 @@ main {
 
 #welcome-section {
   height: 100vh;
+  background-color: #FFF4EC;
 }
 
 #welcome-message, .welcome-p {
@@ -48,6 +76,26 @@ main {
   font-family: 'Delius', cursive;
   padding-top: 30vh;
   font-size: 3em;
+}
+
+.welcome-p {
+  font-size: 1.5em;
+}
+
+#projects {
+  background-color: #E7CFBC;
+}
+
+#footer-section {
+  background-color: #934874;
+}
+
+.footer-p {
+  text-align: center;
+  color: #FFF4EC;
+  padding-top: 40px;
+  padding-bottom: 30px;
+
 }
 
 @media screen and (max-width: 800px) {
