@@ -1,11 +1,16 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+li {
+  list-style: none;
 }
 
 #navbar {
@@ -16,15 +21,15 @@ a {
   height: 60px;
 }
 
-.nav-ul {
+#nav-ul {
   display: flex;
   justify-content: flex-end;
 }
 
 .nav-li {
-  list-style: none;
   padding-left: 30px;
   padding-right: 30px;
+  font-size: 1.3em;
 }
 
 main {
@@ -35,8 +40,27 @@ main {
   height: 100vh;
 }
 
+#welcome-message, .welcome-p {
+  text-align: center;
+}
+
+#welcome-message {
+  font-family: 'Delius', cursive;
+  padding-top: 30vh;
+  font-size: 3em;
+}
+
 @media screen and (max-width: 800px) {
     #navbar {
+      height: auto;
+    }
+
+    main {
+      margin-top: 86px;
+    }
+
+    #nav-ul {
       display: block;
+      text-align: center;
     }
 }
