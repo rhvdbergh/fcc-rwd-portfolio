@@ -23,6 +23,11 @@ li {
   list-style: none;
 }
 
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #navbar {
   position: fixed;
   background: #934874;
@@ -79,11 +84,16 @@ main {
 }
 
 .welcome-p {
+  padding-top: 30px;
   font-size: 1.5em;
 }
 
 #projects {
   background-color: #E7CFBC;
+}
+
+#contact {
+  background-color: #DCA875;
 }
 
 #footer-section {
@@ -95,10 +105,12 @@ main {
   color: #FFF4EC;
   padding-top: 40px;
   padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     #navbar {
       height: auto;
     }
