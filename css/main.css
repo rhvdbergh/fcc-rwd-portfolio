@@ -90,6 +90,18 @@ main {
 
 #projects {
   background-color: #E7CFBC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-tile {
+  height: 300px;
+  width: 300px;
+  margin: 10%;
+  background-color: #C98686;
 }
 
 #contact {
