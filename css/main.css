@@ -105,9 +105,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  
 }
 
 .project-tile {
@@ -148,6 +145,13 @@ main {
   background-color: #86BA90;
 }
 
+#contact-ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 #footer-section {
   background-color: #1E3F20;
 }
@@ -155,8 +159,8 @@ main {
 .footer-p {
   text-align: center;
   color: #BEFFC7;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 30px;
   padding-right: 30px;
 
