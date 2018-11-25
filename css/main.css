@@ -50,6 +50,7 @@ p {
   transition: 0.4s;
   padding-top: 18px;
   padding-bottom: 17px;
+  color: #BEFFC7;
 }
 
 .nav-li:hover {
@@ -58,7 +59,6 @@ p {
 }
 
 .nav-li a {
-  color: #BEFFC7;
   transition: 0.3s;
 }
 
