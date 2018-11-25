@@ -80,7 +80,7 @@ main {
 }
 
 #welcome-message {
-  font-family: 'Delius', cursive;
+  font-family: 'Rubik', sans-serif;
   padding-top: 30vh;
   font-size: 3em;
 }
@@ -95,7 +95,7 @@ main {
 }
 
 #projects-header {
-  font-family: 'Delius', cursive;
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   padding-top: 80px;
   font-size: 3em;
@@ -145,11 +145,25 @@ main {
   background-color: #86BA90;
 }
 
+#contact-header {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 3em;
+}
+
+.contact-p {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #contact-ul {
   display: flex;
   justify-content: space-evenly;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 #footer-section {
